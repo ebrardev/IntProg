@@ -1,0 +1,41 @@
+﻿@model IntProg.Models.Yonetman
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Yonetman</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="YonetmenId" />
+            <div class="form-group">
+                <label asp-for="YonetmenAd" class="control-label"></label>
+                <input asp-for="YonetmenAd" class="form-control" />
+                <span asp-validation-for="YonetmenAd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YonetmenMemleket" class="control-label"></label>
+                <input asp-for="YonetmenMemleket" class="form-control" />
+                <span asp-validation-for="YonetmenMemleket" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YonetmenYas" class="control-label"></label>
+                <input asp-for="YonetmenYas" class="form-control" />
+                <span asp-validation-for="YonetmenYas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

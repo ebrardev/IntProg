@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IntProg
+build_property.RootNamespace = IntProg
+build_property.ProjectDir = C:\Users\ASUS\source\repos\IntProg\IntProg\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\IntProg\IntProg
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Aktors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Aktors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Aktors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Aktors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Aktors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Gosteris/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29zdGVyaXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Gosteris/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29zdGVyaXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Gosteris/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29zdGVyaXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Gosteris/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29zdGVyaXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Gosteris/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29zdGVyaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Startp/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRwXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Startp/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRwXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Startp/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRwXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Startp/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Startp/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRwXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Turs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Turs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Turs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Turs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Turs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yazars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6YXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yazars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6YXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yazars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6YXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yazars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6YXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yazars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6YXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yonetmen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRtZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yonetmen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRtZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yonetmen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRtZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yonetmen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRtZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Yonetmen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRtZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/IntProg/IntProg/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0p6obd1p4t

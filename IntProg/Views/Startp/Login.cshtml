@@ -1,0 +1,160 @@
+﻿@model IntProg.Models.Login
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Giriş Ekranı</h1>
+
+
+<style>
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+    }
+
+    .form-control {
+        height: 20px;
+        width: 500px;
+        padding: 25px 75px;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+    }
+
+    .btn-lg {
+        width: 200px;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: 0.3rem;
+        background-color: blue;
+        color: white;
+    }
+</style>
+
+@*<div class="row justify-content-center">
+    <div class="col-lg-4">
+        <div class="card shadow-lg border-0 rounded-lg mt-5">
+            <div class="card-header">
+                <h3 class="text-center font-weight-light my-4">Login</h3>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Login", "Startp", FormMethod.Post))
+                {
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @id = "password-input" })
+                            <span class="input-group-text">
+                                <i id="password-toggle" class="fas fa-eye-slash" onclick="togglePassword()"></i>
+                            </span>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            @Html.CheckBoxFor(m => m.LoggedStatus, new { @class = "form-check-input" })
+                            @Html.LabelFor(m => m.LoggedStatus, new { @class = "form-check-label" })
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-4">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                    @if (ViewData["OnayMesaji"] != null)
+                    {
+                        <div class="mt-4">
+                            <label>@ViewData["OnayMesaji"]</label>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>*@
+<div class="row justify-content-center">
+    <div class="col-lg-4">
+        <div class="card shadow-lg border-0 rounded-lg mt-5">
+            <div class="card-header">
+                <<h3 class="text-center font-weight-bold my-4 text-primary">Login</h3>
+            </div>
+
+            <div class="card-body">
+                @using (Html.BeginForm("Login", "Startp", FormMethod.Post))
+                {
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @id = "password-input" })
+                            <span class="input-group-text">
+                                <i id="password-toggle" class="fas fa-eye-slash" onclick="togglePassword()"></i>
+                            </span>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            @Html.CheckBoxFor(m => m.LoggedStatus, new { @class = "form-check-input" })
+                            @Html.LabelFor(m => m.LoggedStatus, new { @class = "form-check-label" })
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                    </div>
+                    @if (ViewData["OnayMesaji"] != null)
+                    {
+                        <div class="mt-4">
+                            <label>@ViewData["OnayMesaji"]</label>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        function togglePassword() {
+            var passwordInput = document.getElementById("password-input");
+            var passwordToggle = document.getElementById("password-toggle");
+
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                passwordToggle.classList.remove("fa-eye-slash");
+                passwordToggle.classList.add("fa-eye");
+            } else {
+                passwordInput.type = "password";
+                passwordToggle.classList.remove("fa-eye");
+                passwordToggle.classList.add("fa-eye-slash");
+            }
+        }
+    </script>
+}
+

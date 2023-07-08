@@ -1,0 +1,36 @@
+﻿@model IntProg.Models.Gosteri
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Gosteri</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GosteriAd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GosteriAd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GosteriTarih)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GosteriTarih)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GosteriYeri)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GosteriYeri)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.GosteriId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

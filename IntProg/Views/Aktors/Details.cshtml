@@ -1,0 +1,42 @@
+﻿@model IntProg.Models.Aktor
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Aktor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AktorAd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AktorAd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SonGosteri)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SonGosteri)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AktorResim)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AktorResim)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gosteri)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gosteri.GosteriId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.AktorId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
